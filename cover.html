@@ -73,6 +73,13 @@
 import "fmt"
 
 func Greet(name string, lang string) string <span class="cov8" title="1">{
+        if name == lang </span><span class="cov0" title="0">{
+                fmt.Println("name == lang")
+        }</span> else<span class="cov8" title="1"> {
+                fmt.Println("name != lang")
+        }</span>
+
+        <span class="cov8" title="1">fmt.Println("dododo")
         switch lang </span>{
         case "en":<span class="cov8" title="1">
                 return fmt.Sprintf("Hello, %s.", name)</span>
