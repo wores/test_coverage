@@ -3,6 +3,7 @@ package greet
 import "fmt"
 
 func Greet(name string, lang string) string {
+	fmt.Println("dododo")
 	switch lang {
 	case "en":
 		return fmt.Sprintf("Hello, %s.", name)
