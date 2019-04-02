@@ -3,3 +3,4 @@ coverage:
     slack:
       default:
         url: secret:FlB0auxDj3BTDrUaGXWSPUcQ7JZ5IJibDwaPxxm4LeLK4qoVk6fttLZiACwfMJUs9Yi2qxIXPOpi6sukkAid8qJzgMo/LTXXHzrFxu9Du/99R1Kl3clfeXqdcaARWb+7xawOwei9MXQU6FzlShFSpHNxaYfLC4o89ZMWs5ael+E=
+        threshold: 5%
