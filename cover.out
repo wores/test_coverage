@@ -1,0 +1,5 @@
+mode: set
+test_coverage/greet/greet.go:5.45,6.14 1 1
+test_coverage/greet/greet.go:12.2,12.14 1 0
+test_coverage/greet/greet.go:7.12,8.41 1 1
+test_coverage/greet/greet.go:9.12,10.51 1 1
