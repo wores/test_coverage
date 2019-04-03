@@ -22,5 +22,5 @@ func Greet(name string, lang string) string {
 	case "ja":
 		return fmt.Sprintf("こんにちは, %s.", name)
 	}
-	return "f..."
+	return "miss"
 }
