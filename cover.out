@@ -1,4 +1,4 @@
-mode: count
+mode: atomic
 test_coverage/greet/greet.go:5.45,6.18 1 3
 test_coverage/greet/greet.go:18.2,19.14 2 3
 test_coverage/greet/greet.go:25.2,25.15 1 1
