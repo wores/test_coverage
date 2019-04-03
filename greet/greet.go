@@ -9,12 +9,12 @@ func Greet(name string, lang string) string {
 		fmt.Println("name != lang")
 	}
 
-	fmt.Println("dododo")
+	fmt.Println("dododo popo")
 	switch lang {
 	case "en":
 		return fmt.Sprintf("Hello, %s.", name)
 	case "ja":
 		return fmt.Sprintf("こんにちは, %s.", name)
 	}
-	return "..."
+	return "f..."
 }
