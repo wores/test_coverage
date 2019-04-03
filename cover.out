@@ -1,10 +1,10 @@
 mode: atomic
-test_coverage/greet/greet.go:5.45,6.18 1 2
-test_coverage/greet/greet.go:18.2,19.14 2 2
+test_coverage/greet/greet.go:5.45,6.18 1 1
+test_coverage/greet/greet.go:18.2,19.14 2 1
 test_coverage/greet/greet.go:25.2,25.15 1 0
 test_coverage/greet/greet.go:6.18,8.3 1 0
-test_coverage/greet/greet.go:8.8,8.28 1 2
+test_coverage/greet/greet.go:8.8,8.28 1 1
 test_coverage/greet/greet.go:8.28,10.3 1 0
-test_coverage/greet/greet.go:10.8,12.3 1 2
+test_coverage/greet/greet.go:10.8,12.3 1 1
 test_coverage/greet/greet.go:20.12,21.41 1 1
-test_coverage/greet/greet.go:22.12,23.51 1 1
+test_coverage/greet/greet.go:22.12,23.51 1 0

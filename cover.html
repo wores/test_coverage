@@ -54,7 +54,7 @@
 			<div id="nav">
 				<select id="files">
 				
-				<option value="file0">test_coverage/greet/greet.go (70.0%)</option>
+				<option value="file0">test_coverage/greet/greet.go (60.0%)</option>
 				
 				</select>
 			</div>
@@ -81,12 +81,12 @@
 
 import "fmt"
 
-func Greet(name string, lang string) string <span class="cov10" title="2">{
+func Greet(name string, lang string) string <span class="cov8" title="1">{
         if name == lang </span><span class="cov0" title="0">{
                 fmt.Println("name == lang")
-        }</span> else<span class="cov10" title="2"> if name == "techi" </span><span class="cov0" title="0">{
+        }</span> else<span class="cov8" title="1"> if name == "techi" </span><span class="cov0" title="0">{
                 fmt.Println("i am techi")
-        }</span> else<span class="cov10" title="2"> {
+        }</span> else<span class="cov8" title="1"> {
                 fmt.Println("name != lang")
         }</span>
 
@@ -94,11 +94,11 @@ func Greet(name string, lang string) string <span class="cov10" title="2">{
         //         fmt.Println("i am techi")
         // }
 
-        <span class="cov10" title="2">fmt.Println("dododo popo")
+        <span class="cov8" title="1">fmt.Println("dododo popo")
         switch lang </span>{
-        case "en":<span class="cov1" title="1">
+        case "en":<span class="cov8" title="1">
                 return fmt.Sprintf("Hello, %s.", name)</span>
-        case "ja":<span class="cov1" title="1">
+        case "ja":<span class="cov0" title="0">
                 return fmt.Sprintf("こんにちは, %s.", name)</span>
         }
         <span class="cov0" title="0">return "miss"</span>
