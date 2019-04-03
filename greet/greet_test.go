@@ -13,8 +13,8 @@ func TestGreet(t *testing.T) {
 		expected string
 	}{
 		{TestCase{Name: "World", Language: "en"}, "Hello, World."},
-		// {TestCase{Name: "Bosanova", Language: "ja"}, "こんにちは, Bosanova."},
-		// {TestCase{Name: "jk", Language: "jk"}, "miss"},
+		{TestCase{Name: "Bosanova", Language: "ja"}, "こんにちは, Bosanova."},
+		{TestCase{Name: "jk", Language: "jk"}, "miss"},
 		// {TestCase{Name: "techi", Language: "pochi"}, "miss"},
 	}
 	for _, c := range cases {
