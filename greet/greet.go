@@ -5,13 +5,15 @@ import "fmt"
 func Greet(name string, lang string) string {
 	if name == lang {
 		fmt.Println("name == lang")
+	} else if name == "techi" {
+		fmt.Println("i am techi")
 	} else {
 		fmt.Println("name != lang")
 	}
 
-	if name == "techi" {
-		fmt.Println("i am techi")
-	}
+	// if name == "techi" {
+	// 	fmt.Println("i am techi")
+	// }
 
 	fmt.Println("dododo popo")
 	switch lang {
