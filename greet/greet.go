@@ -9,6 +9,10 @@ func Greet(name string, lang string) string {
 		fmt.Println("name != lang")
 	}
 
+	if name == "techi" {
+		fmt.Println("i am techi")
+	}
+
 	fmt.Println("dododo popo")
 	switch lang {
 	case "en":
